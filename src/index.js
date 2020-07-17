@@ -14,9 +14,10 @@
   const name = document.querySelector(".user-info__name");
   const info = document.querySelector(".user-info__job");
   const avatar = document.querySelector(".user-info__photo");
+  const API_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
 
   const config = {
-    baseUrl: "https://praktikum.tk/cohort11",
+    baseUrl: `${API_URL}/cohort11`,
     headers: {
       authorization: "278cc6e5-7388-467f-ab3e-8b115c22a86b",
       "Content-Type": "application/json",
