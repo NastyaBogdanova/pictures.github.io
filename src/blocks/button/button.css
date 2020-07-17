@@ -1,0 +1,21 @@
+.button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline-color: greenyellow;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button:disabled {
+  background: #FFFFFF;
+  color: rgba(0, 0, 0, .2);
+}
