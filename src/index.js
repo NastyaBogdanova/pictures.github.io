@@ -14,7 +14,7 @@
   const name = document.querySelector(".user-info__name");
   const info = document.querySelector(".user-info__job");
   const avatar = document.querySelector(".user-info__photo");
-  const API_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
+  const API_URL = NODE_ENV === 'production' ? 'https://nomoreparties.co' : 'http://nomoreparties.co';
 
   const config = {
     baseUrl: `${API_URL}/cohort11`,
